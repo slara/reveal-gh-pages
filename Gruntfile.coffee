@@ -94,7 +94,7 @@ module.exports = (grunt) ->
                 dir: 'dist',
                 commit: true,
                 push: true,
-                message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+                message: 'Built from %sourceCommit% on branch %sourceBranch%'
             pages:
                 options:
                     remote: 'git@github.com:slara/reveal-gh-pages.git'
